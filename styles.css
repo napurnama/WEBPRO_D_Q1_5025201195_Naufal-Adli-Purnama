@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+
+:root{
+    --primary: #2b2b2b;
+    --secondary: #287442;
+    --tertiary: #f0f0f0; 
+    --display-font: 'Playfair Display';
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+
+.bg-tertiary{
+    background-color: var(--tertiary) !important;
+}
+
+.logo-lg{
+    height: 5rem;
+    width: auto;
+}
+
+.logo-md{
+    height: 2.5rem;
+    width: auto;
+}
+
+.logo-sm{
+    height: 2.5rem;
+    width: auto;
+}
+
+.text-nav{
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.text-nav-active{
+    color: var(--secondary);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.text-section{
+    font-weight: 500;
+    font-style: italic;
+    color: var(--secondary);
+
+}
+
