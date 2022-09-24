@@ -38,6 +38,33 @@ body{
     width: auto;
 }
 
+.card-body{
+    background-color: var(--secondary);
+    color: var(--tertiary);
+}
+
+.card-title{
+    font-family: var(--display-font);
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.card-text{
+    font-weight: 300;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.card-link{
+    font-family: var(--display-font);
+    color: var(--tertiary);
+}
+
+.card-link:hover{
+    color: var(--tertiary);
+}
+
 .text-nav{
     color: var(--secondary);
     font-weight: 500;
@@ -54,6 +81,5 @@ body{
     font-weight: 500;
     font-style: italic;
     color: var(--secondary);
-
 }
 
