@@ -92,7 +92,6 @@ body{
 .text-section-title{
     font-family: var(--display-font);
     font-weight: 500;
-    font-style: italic;
     font-size: 2.75rem;
     color: var(--secondary);
 }
@@ -104,4 +103,8 @@ body{
 
 .tourism-map{
     max-height: 75vh;
+}
+
+.hometown-img-top{
+    filter: blur(0px) brightness(50%);
 }
