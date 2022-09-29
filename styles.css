@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,500&display=swap');
 
 :root{
@@ -140,4 +141,148 @@ body{
 
 .h-fluid{
     height: calc(100vh - 56px);
+=======
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,500&display=swap');
+
+:root{
+    --primary: #2b2b2b;
+    --secondary: #287442;
+    --tertiary: #f0f0f0; 
+    --display-font: 'Playfair Display';
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+
+.bg-secondary{
+    background-color: var(--secondary) !important;
+}
+
+.bg-tertiary{
+    background-color: var(--tertiary) !important;
+}
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.text-secondary{
+    color: var(--secondary) !important;
+}
+
+.text-tertiary{
+    color: var(--tertiary) !important;
+}
+
+.logo-lg{
+    height: 5rem;
+    width: auto;
+}
+
+.logo-md{
+    height: 2.5rem;
+    width: auto;
+}
+
+.logo-sm{
+    height: 2.5rem;
+    width: auto;
+}
+
+.card-body{
+    background-color: var(--secondary);
+    color: var(--tertiary);
+}
+
+.card-title{
+    font-family: var(--display-font);
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.card-text{
+    font-weight: 300;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+.card-link{
+    font-family: var(--display-font);
+    color: var(--tertiary);
+}
+
+.card-link:hover{
+    color: var(--tertiary);
+}
+
+.text-nav{
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.text-nav-active{
+    color: var(--secondary);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.text-section-title{
+    font-family: var(--display-font);
+    font-weight: 500;
+    font-size: 2.75rem;
+    color: var(--secondary);
+}
+
+.text-section-body{
+    font-size: 0.75rem;
+    text-align: justify;
+}
+
+.text-md{
+    font-size: 1.75rem;
+}
+
+.tourism-map{
+    max-height: 75vh;
+}
+
+.hometown-header{
+    min-height: 55vh;    
+}
+
+.hometown-header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("/Image/hometown-header.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    filter: blur(2px) brightness(50%);
+}
+
+.welcome-greeting{
+    color: var(--primary);
+}
+
+.welcome-name{
+    color: var(--secondary);
+    font-family: var(--display-font);
+}
+
+.fit-content{
+    height: fit-content;
+    width: fit-content;
+}
+
+.h-fluid{
+    height: calc(100vh - 56px);
+>>>>>>> 40d80bb0cffcf96033ef4a5ce97d5ac1c39d4cc1
 }
