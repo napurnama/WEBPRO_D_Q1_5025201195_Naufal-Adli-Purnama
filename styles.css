@@ -107,4 +107,19 @@ body{
 
 .hometown-img-top{
     filter: blur(0px) brightness(50%);
+    z-index: -999;
+}
+
+.welcome-greeting{
+    color: var(--primary);
+}
+
+.welcome-name{
+    color: var(--secondary);
+    font-family: var(--display-font);
+}
+
+.fit-content{
+    height: fit-content;
+    width: fit-content;
 }
